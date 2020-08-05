@@ -83,7 +83,6 @@ body {
   height: 60%;
   list-style: none;
   padding: 0;
-  border-radius: var(--size-border);
   margin-bottom: var(--base-space);
   overflow-y: scroll;
 }
@@ -93,6 +92,8 @@ body {
   display: flex;
   align-items: center;
   padding: var(--base-space);
+  border-radius: var(--size-border);
+  margin-bottom: var(--base-space);
 }
 
 .item__thumbnail {
